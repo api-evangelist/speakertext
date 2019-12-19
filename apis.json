@@ -1,0 +1,118 @@
+{
+    "name": "SpeakerText",
+    "description": "cielo24 captions, transcripts, and video intelligence transforms unstructured media into fully searchable structured media data, powering enhanced discovery, reach, engagement, and accessibility compliance. Contact us for a demo.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/938-speakertext.jpg",
+    "tags": [
+        "general data",
+        "have api",
+        "indexing",
+        "relative data",
+        "service api",
+        "transcripts"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/speakertext\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "SpeakerText",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/938-speakertext.jpg",
+            "humanURL": "http:\/\/speakertext.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/speakertext.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/speakertext-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Speaker Text",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/938-speakertext.jpg",
+            "humanURL": "http:\/\/speakertext.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/speaker-text.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/speaker-text-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.speakertext.com"
+        },
+        {
+            "type": "Contact Form",
+            "url": "http:\/\/speakertext.com\/contact"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/speakertext"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/cielo24"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/speakertext.com\/api"
+        },
+        {
+            "type": "FAQ",
+            "url": "http:\/\/speakertext.com\/faq"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/speakertext"
+        },
+        {
+            "type": "Pricing",
+            "url": "http:\/\/speakertext.com\/pricing"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/speakertext.com\/privacy"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "http:\/\/speakertext.com\/tos"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/speakertext"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/cielo24"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/speakertext.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/speakertext.com"
+        },
+        {
+            "type": "Wordpress Plugin",
+            "url": "http:\/\/speakertext.com\/captionbox\/wordpress"
+        }
+    ]
+}
