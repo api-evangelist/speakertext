@@ -1,0 +1,89 @@
+{
+    "id": "bf7916b109b2a7edecc7cec2e5f00c22",
+    "name": "Speaker Text",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "20de94f98dc97336b7a2085b4dd751e4",
+            "name": "Iniate Transcript",
+            "url": "httpsapi.speakertext.com\/v1\/transcripts",
+            "description": "This method is used to initiate one or more SpeakerText transcriptions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pingback_url",
+                    "description": "If present, we will make a POST request to this URL upon transcript completion. The body of the request will have three keys: transcript_id (SpeakerTexts transcript id), ref_id (the media reference id or video id you specified in the original POST), and content (the HTML transcript for CaptionBox).",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sources",
+                    "description": "(JSON) single source object or array of source objects",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7916b109b2a7edecc7cec2e5f00c22",
+            "rawModeData": ""
+        },
+        {
+            "id": "c9333aec4a8433c36b06fce70abf58a7",
+            "name": "Retrieve Transcription",
+            "url": "httpsapi.speakertext.com\/v1\/transcripts\/{id}",
+            "description": "This method is used to retrieve the results of SpeakerText transcriptions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "dfxp, srt, txt, xml, or html (for CaptionBox). When not specified, defaults to txt. Case-insensitive.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Transcript ID returned to you upon transcript creation",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "bf7916b109b2a7edecc7cec2e5f00c22",
+            "rawModeData": ""
+        }
+    ]
+}
