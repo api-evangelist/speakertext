@@ -1,0 +1,57 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Speaker Text",
+        "description": "SpeakerText's transcription services may be accessed through a RESTful API. It is possible to initiate transcription and receive transcription results through the API. Anyone with a SpeakerText account can use the API.",
+        "termsOfService": "http:\/\/speakertext.com\/tos"
+    },
+    "servers": [
+        "httpsapi.speakertext.com\/v1"
+    ],
+    "paths": {
+        "\/transcripts": {
+            "post": {
+                "summary": "Iniate Transcript",
+                "description": "This method is used to initiate one or more SpeakerText transcriptions.",
+                "operationId": "PostTranscripts",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pingback_url",
+                        "in": "query",
+                        "description": "If present, we will make a POST request to this URL upon transcript completion. The body of the request will have three keys: transcript_id (SpeakerTexts transcript id), ref_id (the media reference id or video id you specified in the original POST), and content (the HTML transcript for CaptionBox)."
+                    },
+                    {
+                        "name": "sources",
+                        "in": "query",
+                        "description": "(JSON) single source object or array of source objects"
+                    }
+                ]
+            }
+        },
+        "\/transcripts\/{id}": {
+            "get": {
+                "summary": "Retrieve Transcription",
+                "description": "This method is used to retrieve the results of SpeakerText transcriptions.",
+                "operationId": "GetTranscripts",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "dfxp, srt, txt, xml, or html (for CaptionBox). When not specified, defaults to txt. Case-insensitive."
+                    },
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "Transcript ID returned to you upon transcript creation"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
