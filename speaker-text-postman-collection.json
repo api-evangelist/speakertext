@@ -1,5 +1,5 @@
 {
-    "id": "bf7916b109b2a7edecc7cec2e5f00c22",
+    "id": "05005ba741f06f85e2b263d0c670bfbf",
     "name": "Speaker Text",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "20de94f98dc97336b7a2085b4dd751e4",
+            "id": "0fb3e5a90cd5c96761afe0d7b4478e2a",
             "name": "Iniate Transcript",
             "url": "httpsapi.speakertext.com\/v1\/transcripts",
             "description": "This method is used to initiate one or more SpeakerText transcriptions.",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7916b109b2a7edecc7cec2e5f00c22",
+            "collectionId": "05005ba741f06f85e2b263d0c670bfbf",
             "rawModeData": ""
         },
         {
-            "id": "c9333aec4a8433c36b06fce70abf58a7",
+            "id": "3ea44390e678d3a4156d3b9a65926fd1",
             "name": "Retrieve Transcription",
             "url": "httpsapi.speakertext.com\/v1\/transcripts\/{id}",
             "description": "This method is used to retrieve the results of SpeakerText transcriptions.",
@@ -82,7 +82,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "bf7916b109b2a7edecc7cec2e5f00c22",
+            "collectionId": "05005ba741f06f85e2b263d0c670bfbf",
             "rawModeData": ""
         }
     ]
